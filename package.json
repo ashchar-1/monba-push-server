@@ -1,0 +1,18 @@
+{
+  "name": "mi-push-server",
+  "version": "1.0.0",
+  "description": "Servidor de notificaciones push para Monbá QR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luis Hernandez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "web-push": "^3.6.7"
+  }
+}
